@@ -148,12 +148,12 @@ h1, h2, h3 {
 .dog-contact-card { background: #fff7e0; border-color: var(--orange); text-align: center; }
 .dog-contact-card h3 { font-size: 1.05rem; text-transform: none; color: var(--ink); }
 .dog-photo {
-  width: 96px;
-  height: 96px;
+  width: 60px;
+  height: 60px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid var(--card-border);
-  margin-bottom: 0.5rem;
+  border: 2px solid var(--card-border);
+  margin-bottom: 0.4rem;
 }
 .dog-contact-card div, .dog-contact-card .contact-name { text-align: left; }
 
