@@ -145,8 +145,17 @@ h1, h2, h3 {
 .contact-card a { color: var(--red-dark); }
 
 .dogs-box h2 { color: #8a5a05; }
-.dog-contact-card { background: #fff7e0; border-color: var(--orange); }
+.dog-contact-card { background: #fff7e0; border-color: var(--orange); text-align: center; }
 .dog-contact-card h3 { font-size: 1.05rem; text-transform: none; color: var(--ink); }
+.dog-photo {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--card-border);
+  margin-bottom: 0.5rem;
+}
+.dog-contact-card div, .dog-contact-card .contact-name { text-align: left; }
 
 .insurance-box { border-radius: 0 0 18px 18px; }
 .hospital-note { background: #fff7e0; border-left: 4px solid var(--orange); padding: 0.8rem 1rem; margin-top: 1rem; font-size: 0.92rem; }
