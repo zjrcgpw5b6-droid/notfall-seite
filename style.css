@@ -144,6 +144,10 @@ h1, h2, h3 {
 .contact-card div { font-size: 0.9rem; margin-bottom: 0.15rem; }
 .contact-card a { color: var(--red-dark); }
 
+.dogs-box h2 { color: #8a5a05; }
+.dog-contact-card { background: #fff7e0; border-color: var(--orange); }
+.dog-contact-card h3 { font-size: 1.05rem; text-transform: none; color: var(--ink); }
+
 .insurance-box { border-radius: 0 0 18px 18px; }
 .hospital-note { background: #fff7e0; border-left: 4px solid var(--orange); padding: 0.8rem 1rem; margin-top: 1rem; font-size: 0.92rem; }
 
